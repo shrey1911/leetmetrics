@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(82, 82, 83);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(107, 106, 106);
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-input-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#user-input {
+    width: 80%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#Search-btn {
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#Search-btn:hover {
+    background-color: darkgreen;
+}
+
+.Stats-container {
+    margin-top: 20px;
+}
+
+.progress {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid green;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    background: conic-gradient(green var(--progress-degree,0%), #283a2e 0%);
+}
+
+.stats-cards{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    
+}
+.card{
+    
+    background-color:rgb(14, 64, 121);
+    min-height: 2rem;
+    width: 40%;
+    max-width: 290px;
+    padding: 10px;
+    border-radius: 10px;
+    size: 1rem;
+}
+
